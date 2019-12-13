@@ -1,0 +1,1 @@
+web: gunicorn recipeappapi.wsgi --log-file -
