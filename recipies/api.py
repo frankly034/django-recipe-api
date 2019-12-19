@@ -1,4 +1,4 @@
-from recipies.models import Recipe
+from .models import Recipe
 from rest_framework import viewsets, permissions
 from .serializers import RecipeSerializer
 
